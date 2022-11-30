@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+body{
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+header{
+    margin: 5% auto;
+    text-align: center;
+}
+h1{
+    font-weight: 200;
+    font-size: 2rem;
+    margin-bottom: 0;
+    color: hsl(234, 12%, 34%);
+}
+h2{
+    font-weight: 600;
+    font-size: 1.9rem;
+    margin-top: 0;
+    color: hsl(234, 12%, 34%);
+}
+.head-p{
+    font-size: 0.8rem;
+    width: 35%;
+    margin: 1rem auto;
+    color: hsl(229, 6%, 66%);
+}
+main{
+    display: flex;
+    margin: 7% 7%;
+    align-items: center;
+    gap: 2rem;
+}
+.supervisor{
+    border-top: 5px solid hsl(180, 62%, 55%);
+    border-radius: 5px;
+    flex: 1;
+    box-shadow: 3px 3px 20px hsl(229, 6%, 66%);
+} 
+.mid-div{
+    flex: 1;
+}
+.team{
+    border-top: 5px solid hsl(0, 78%, 62%);
+    border-radius: 5px; 
+    margin-bottom: 2rem;
+    box-shadow: 3px 3px 20px hsl(229, 6%, 66%);
+}
+.karma{
+    border-top: 5px solid hsl(34, 97%, 64%);
+    border-radius: 5px;
+    box-shadow: 3px 3px 20px hsl(229, 6%, 66%);
+}
+.calculator{
+    flex: 1;
+    border-top: 5px solid hsl(212, 86%, 64%);
+    border-radius: 5px;   
+    box-shadow: 3px 3px 20px hsl(229, 6%, 66%);
+}
+h3{
+    margin: 6%;
+    color: hsl(234, 12%, 34%);
+}
+main p{
+    margin: 0 6% 6%;
+    font-size: 0.8rem;
+    color: hsl(229, 6%, 66%);
+}
+img{
+    display: block;
+    margin: 4% 6% 6% auto;
+    width: 15%;
+}
+
+@media screen and (max-width:700px) {
+
+    .head-p{
+        width: 70%;
+    }
+    main{
+        flex-direction: column;
+        margin: 15%;
+        line-height: 1.5;
+    }
+    .supervisor{
+        width: 100%;
+    }
+    
+}
+
